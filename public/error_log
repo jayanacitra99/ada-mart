@@ -1,0 +1,15 @@
+[12-May-2024 03:47:25 Asia/Jakarta] PHP Warning:  require(/home/besmartk/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/besmartk/public_html/public/index.php on line 34
+[12-May-2024 03:47:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/besmartk/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/besmartk/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/besmartk/public_html/public/index.php on line 34
+[12-May-2024 03:47:26 Asia/Jakarta] PHP Warning:  require(/home/besmartk/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/besmartk/public_html/public/index.php on line 34
+[12-May-2024 03:47:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/besmartk/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/besmartk/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/besmartk/public_html/public/index.php on line 34
+[12-May-2024 03:47:48 Asia/Jakarta] PHP Warning:  require(/home/besmartk/public_html/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/besmartk/public_html/public/index.php on line 34
+[12-May-2024 03:47:48 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required '/home/besmartk/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/besmartk/public_html/public/index.php on line 34
+[12-May-2024 03:47:56 Asia/Jakarta] PHP Warning:  require(/home/besmartk/public_html/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/besmartk/public_html/public/index.php on line 34
+[12-May-2024 03:47:56 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required '/home/besmartk/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/besmartk/public_html/public/index.php on line 34
+[12-May-2024 03:50:52 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/besmartk/public_html/vendor/composer/platform_check.php on line 24

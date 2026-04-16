@@ -1,0 +1,16 @@
+@extends('Admin.layout')
+@section('title')
+    
+@endsection
+@section('styles')
+    
+@endsection
+@section('content')
+    
+@endsection
+@section('scripts')
+    
+@endsection
+@section('end_scripts')
+    
+@endsection
