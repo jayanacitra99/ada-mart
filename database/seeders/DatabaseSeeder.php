@@ -21,26 +21,33 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+//        User::create([
+//            'name'      => 'Admin',
+//            'phone'     => '00000000001',
+//            'email'     => 'admin@mail.com',
+//            'password'  => Hash::make('1234qwer'),
+//            'role'      => 'admin',
+//        ]);
+//        User::create([
+//            'name'      => 'Customer',
+//            'phone'     => '00000000002',
+//            'email'     => 'customer@mail.com',
+//            'password'  => Hash::make('1234qwer'),
+//            'role'      => 'customer',
+//        ]);
         User::create([
-            'name'      => 'Admin',
-            'phone'     => '00000000001',
-            'email'     => 'admin@karomahjaya.com',
-            'password'  => Hash::make('1234qwer'),
-            'role'      => 'admin',
-        ]);
-        User::create([
-            'name'      => 'Customer',
+            'name'      => 'WareHouse',
             'phone'     => '00000000002',
-            'email'     => 'customer@karomahjaya.com',
+            'email'     => 'warehouse-admin@mail.com',
             'password'  => Hash::make('1234qwer'),
-            'role'      => 'customer',
+            'role'      => 'warehouse-admin',
         ]);
 //        User::factory()->count(50)->create();
 //        $this->call(PromoSeeder::class);
 //        $this->call(CategoriesSeeder::class);
-        $this->call(ProductSeeder::class);
-        $this->call(ProductCategoriesSeeder::class);
-        $this->call(ProductDetailSeeder::class);
+//        $this->call(ProductSeeder::class);
+//        $this->call(ProductCategoriesSeeder::class);
+//        $this->call(ProductDetailSeeder::class);
 //        $this->call(OrderSeeder::class);
 //        $this->call(OrderDetailSeeder::class);
 //        $this->call(PaymentSeeder::class);
