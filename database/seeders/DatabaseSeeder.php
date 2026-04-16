@@ -37,7 +37,7 @@ class DatabaseSeeder extends Seeder
 //        ]);
         User::create([
             'name'      => 'WareHouse',
-            'phone'     => '00000000002',
+            'phone'     => '00000000003',
             'email'     => 'warehouse-admin@mail.com',
             'password'  => Hash::make('1234qwer'),
             'role'      => 'warehouse-admin',
