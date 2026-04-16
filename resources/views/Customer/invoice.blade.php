@@ -14,7 +14,7 @@
         <div class="row">
           <div class="col-12">
             <h4>
-              <img src="{{asset('adamart-logo.png')}}" class="img-size-32" alt="AdaMart_logo"> AdaMart
+              <img src="{{asset('adamart-logo.png')}}" class="img-size-32" alt="AdaMart_logo"> KaromahJaya
               <small class="float-right">Date : {{Carbon\Carbon::parse($order->created_at)->format('d/m/Y')}}</small>
             </h4>
           </div>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdaMart | Forgot Password</title>
+  <title>KaromahJaya | Forgot Password</title>
 <link rel="icon" href="{{ asset('logomark.ico') }}" type="image/x-icon">
 
   <!-- Google Font: Source Sans Pro -->
@@ -51,7 +51,7 @@
           <div class="row g-0">
             <div class="col-lg-6">
               <div class="card-body p-md-5 mx-md-4">
-  
+
                 <div class="text-center">
                   <img src="{{asset('adamart-logo.png')}}" style="width: 65px;" alt="logo">
                   <h4 class="mt-1 mb-5 pb-1">Forgot Password</h4>

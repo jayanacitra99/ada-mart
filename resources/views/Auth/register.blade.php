@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdaMart | Register</title>
+  <title>KaromahJaya | Register</title>
 <link rel="icon" href="{{ asset('logomark.ico') }}" type="image/x-icon">
 
   <!-- Google Font: Source Sans Pro -->
@@ -51,12 +51,12 @@
             <div class="row g-0">
               <div class="col-lg-6">
                 <div class="card-body p-md-5 mx-md-4">
-    
+
                   <div class="text-center">
                     <img src="{{asset('adamart-logo.png')}}" style="width: 65px;" alt="logo">
                     <h4 class="mt-1 mb-5 pb-1">Lets Join Us!</h4>
                     </div>
-    
+
                     <form action="{{route('register')}}" method="post">
                       @csrf
                       <div class="input-group mb-3">
@@ -107,8 +107,8 @@
                         <!-- /.col -->
                       </div>
                     </form>
-              
-                    
+
+
                     <div class="text-center pt-1 mb-5 pb-1">
                       <a href="{{url('login')}}" class="text-center" style="color: #c00000">I already have an account</a>
                     </div>

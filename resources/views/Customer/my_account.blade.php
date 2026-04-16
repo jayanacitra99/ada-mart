@@ -1,6 +1,6 @@
 @extends('Customer.layout')
 @section('title')
-    AdaMart - My Account
+    KaromahJaya - My Account
 @endsection
 @section('styles')
     <!-- DataTables -->
@@ -37,9 +37,9 @@
                                         src="{{$user->profile_image}}"
                                         alt="{{$user->name}}">
                                 </div>
-                
+
                                 <h3 class="profile-username text-center">{{$user->name}}</h3>
-                
+
                                 <ul class="list-group list-group-unbordered mb-3">
                                     <li class="list-group-item">
                                     <b>Email</b> <span class="float-right">{{$user->email}}</span>
@@ -282,7 +282,7 @@
                     let passwords = errors.password;
                     passwords.forEach(element => {
                         toastr.error(element);
-                    }); 
+                    });
                 }
             });
         });
@@ -313,7 +313,7 @@
             modal.find('.modal-content').empty();
             modal.find('.modal-content').load(url, function(result){
                 modal.modal('show');
-            }); 
+            });
         });
 
         $(document).on('click','#addNewAddress',function() {

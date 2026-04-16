@@ -1,6 +1,6 @@
 @extends('Customer.layout')
 @section('title')
-    AdaMart Home
+    KaromahJaya Home
 @endsection
 @section('styles')
 <style>
@@ -185,7 +185,7 @@
                     skip += 15;
                     loading = false;
                     document.getElementById('loadProductLoader').style.display = 'none';
-                    
+
                     // Check if there are more products
                     if (!data.hasMore) {
                         hasMore = false;

@@ -1,6 +1,6 @@
 @extends('Customer.layout')
 @section('title')
-    AdaMart - Home
+    KaromahJaya - Home
 @endsection
 @section('styles')
     <style>
@@ -185,13 +185,13 @@
                       <div class="carousel-inner">
                         @php $chunked_categories = array_chunk($categories->toArray(), 5); @endphp
                             @foreach ($chunked_categories as $index => $chunk)
-                            <div class="carousel-item @if($index === 0) active @endif"> 
+                            <div class="carousel-item @if($index === 0) active @endif">
                                 <div class="row d-flex justify-content-center">
                                     @foreach ($chunk as $category)
                                     <div class="col-sm-12 col-lg-2 col-md-6 mb-1" style="">
                                         <div class="card" style="height: 100%">
                                             <div class="card-header bg-transparent d-flex justify-content-center align-items-center mt-1" style="height: 20%">
-                                                <h5 class="text-center"><b>{{$category['name']}}</b></h5>   
+                                                <h5 class="text-center"><b>{{$category['name']}}</b></h5>
                                             </div>
                                             <div class="card-body" class="height:80%">
                                                 <a href="{{url('/all-products?category_id='.$category['id'])}}" data-title="{{$category['name']}}" class="">
@@ -200,8 +200,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    @endforeach 
-                                </div>                                 
+                                    @endforeach
+                                </div>
                             </div>
                         @endforeach
                       </div>
@@ -256,7 +256,7 @@
                             @endphp
                             <div class="col-lg-3 col-md-6 col-12" style="max-height: 600px">
                                 <div class="card" style="height: 95%">
-                                    <div class="card-body" style="height: 85%;">                              
+                                    <div class="card-body" style="height: 85%;">
                                         @if ($onPromo)
                                             <div class="ribbon-wrapper ribbon-lg product-ribbon">
                                                 <div class="ribbon" style="background-color: #c00000">
@@ -290,7 +290,7 @@
                     </div>
                 </div>
             </div>
-        </div>  
+        </div>
         <div class="row justify-content-center">
             <div class="col-11 p-0">
                 <div class="card-header title-bg-color border-0">
@@ -325,7 +325,7 @@
                             @endphp
                             <div class="col-lg-3 col-md-6 col-12" style="max-height: 600px">
                                 <div class="card" style="height: 95%">
-                                    <div class="card-body" style="height: 85%;">                              
+                                    <div class="card-body" style="height: 85%;">
                                         @if ($onPromo)
                                             <div class="ribbon-wrapper ribbon-lg product-ribbon">
                                                 <div class="ribbon" style="background-color: #c00000">
@@ -376,7 +376,7 @@
                         <i class="fab fa-whatsapp"></i>
                     </div>
                 </a>
-                <a href="https://instagram.com/AdaMart" target="_blank">
+                <a href="https://instagram.com/KaromahJaya" target="_blank">
                     <div class="fab-option">
                         <i class="fab fa-instagram"></i>
                     </div>

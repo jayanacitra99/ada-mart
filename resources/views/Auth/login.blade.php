@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdaMart | Login</title>
+  <title>KaromahJaya | Login</title>
 <link rel="icon" href="{{ asset('logomark.ico') }}" type="image/x-icon">
 
   <!-- Google Font: Source Sans Pro -->
@@ -51,30 +51,30 @@
             <div class="row g-0">
               <div class="col-lg-6">
                 <div class="card-body p-md-5 mx-md-4">
-    
+
                   <div class="text-center">
                     <img src="{{asset('adamart-logo.png')}}" style="width: 65px;" alt="logo">
-                    <h4 class="mt-1 mb-5 pb-1">Welcome to AdaMart</h4>
+                    <h4 class="mt-1 mb-5 pb-1">Welcome to KaromahJaya</h4>
                   </div>
-  
+
                   <form action="{{route('login')}}" method="POST">
                     @csrf
                     <p>Please login to your account</p>
-                    
+
                     <div data-mdb-input-init class="form-outline mb-4">
                       <label class="form-label" for="email">Email</label>
                       <input type="email" name="email" id="email" class="form-control"/>
                     </div>
-  
+
                     <div data-mdb-input-init class="form-outline mb-4">
                       <label class="form-label" for="password">Password</label>
                       <input type="password" name="password" id="password" class="form-control" />
                     </div>
-  
+
                     <div class="text-center pt-1">
                       <button type="submit" class="btn btn-block fa-lg mb-3 text-bold" style="background-color: #c00000; color:#ffcb39">Sign In</button>
                     </div>
-  
+
                   </form>
                   <div class="text-center pt-1 mb-5 pb-1">
                     <a class="text-muted" href="{{route('password.request')}}">Forgot password?</a>

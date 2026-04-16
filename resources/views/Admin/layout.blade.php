@@ -95,7 +95,7 @@
     <!-- Brand Logo -->
     <a href="{{route('admin')}}" class="brand-link">
       <img src="{{asset('')}}adamart-logo.png" alt="AdaMart Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-bold">AdaMart</span>
+      <span class="brand-text font-weight-bold">KaromahJaya</span>
     </a>
 
     <!-- Sidebar -->
@@ -350,7 +350,7 @@
               }
           })
       });
-      
+
   });
 </script>
 <!-- Modal -->

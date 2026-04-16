@@ -135,11 +135,11 @@
                     <td><strong>Destination:</strong></td>
                     <td>{{$customer?->combined_address ?? '-'}}</td>
                     <td><strong>From :</strong></td>
-                    <td>AdaMart</td>
+                    <td>KaromahJaya</td>
                 </tr>
             </table>
-        </div>        
-        
+        </div>
+
         <table class="invoice-table">
             <thead>
                 <tr>
