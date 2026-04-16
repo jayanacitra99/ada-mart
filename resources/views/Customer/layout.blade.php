@@ -87,7 +87,7 @@
       <a href="{{route('home')}}" class="navbar-brand pr-lg-2">
         <div class="d-flex align-items-center">
           <img src="{{asset('adamart-logo.png')}}" alt="AdaMart Logo" class="brand-image mr-2" style="object-fit: contain; max-width: 25%; height:auto; max-height: 60px">
-          <h1 class="brand-image text-bold" style="object-fit: contain; max-width: 75%; height:auto; max-height: 40px; color:#ffcb39"> ADA MART </h1>
+          <h1 class="brand-image text-bold" style="object-fit: contain; max-width: 75%; height:auto; max-height: 40px; color:#ffcb39"> Karomah Jaya </h1>
         </div>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -109,7 +109,7 @@
                 $categories = App\Models\Categories::with('productCategories.product')
                               ->whereHas('productCategories.product')
                               ->get();
-              @endphp 
+              @endphp
               @foreach ($categories as $category)
                 <li><a href="{{url('/all-products?category_id='.$category->id)}}" class="dropdown-item">{{$category->name}}</a></li>
                 <li class="dropdown-divider"></li>
@@ -366,7 +366,7 @@
                                               });
                                             } else {
                                               window.location.href = '{{ route("login") }}';
-                                            } 
+                                            }
                                           }
                                       })
                                   } else {
@@ -496,7 +496,7 @@
               }
           })
       });
-      
+
   });
 </script>
 <!-- Modal -->
